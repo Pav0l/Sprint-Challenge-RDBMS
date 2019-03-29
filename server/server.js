@@ -15,7 +15,7 @@ app.use(actions_url, routes_actions);
 
 
 app.get('/', (req, res) => {
-  res.status(200).json("Hello from GET main request");
+  res.status(200).json("This is the home page for GTD Project Tracker app.");
 });
 
 module.exports = app;

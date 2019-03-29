@@ -1,9 +1,6 @@
 const express = require('express');
-const knex = require('knex');
-const knexConfig = require('../knexfile');
 const DB = require('../data/dbQueries');
 
-const db = knex(knexConfig.development);
 const routes = express.Router();
 
 // addAction = [POST] => returns an array with action_id
